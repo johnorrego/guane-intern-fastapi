@@ -10,7 +10,7 @@ La api maneja 2 entidades: Dog, User.
 
 
 ## Instalación
-- Se debe ejecutar el archivo "docker-compose.yml", este se encargara de crear las imagenes necesarias y posteriormente sus contenedores.
+- Se debe ejecutar el archivo "docker-compose.yml", este se encargará de crear las imagenes necesarias y posteriormente sus contenedores.
 
 
 ## Endpoints
