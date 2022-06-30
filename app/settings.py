@@ -1,7 +1,7 @@
 
 DATABASE_CONFIG = {
     "connections": {
-        "default": "postgres://postgres:postgres@localhost:5432/sistema_adopcion"
+        "default": "postgres://postgres:postgres@db:5432/sistema_adopcion"
     },
     "apps": {
         "models": {

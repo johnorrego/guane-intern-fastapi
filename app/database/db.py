@@ -10,7 +10,7 @@ Tortoise.init_models(["models"], 'models')
 def db_connection(app):
     register_tortoise(
         app,
-        db_url="postgres://postgres:postgres@localhost:5432/sistema_adopcion",
+        db_url="postgres://postgres:postgres@db:5432/sistema_adopcion",
         modules={"models": ["models"]},
         generate_schemas=True,
         add_exception_handlers=True

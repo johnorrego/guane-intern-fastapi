@@ -12,7 +12,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=ejemplo
+      - POSTGRES_DB=sistema_adopcion
 
   rabbitmq:
     image: "bitnami/rabbitmq:3.7"
